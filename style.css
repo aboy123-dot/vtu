@@ -482,6 +482,7 @@ text-align: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     overflow: hidden;
+    z-index: 5px;
   }
   h3{
     font-size: 10px;
