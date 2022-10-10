@@ -472,8 +472,8 @@ text-align: center;
   .nav-links{
     position:absolute;
     right:0px;
-    height:70vh;
-    top: 8vh;
+    height:60vh;
+    top: 5vh;
     background-color: #19e9f0;
     display:flex;
     flex-direction: column;  
@@ -481,6 +481,7 @@ text-align: center;
     width:50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    overflow: hidden;
   }
   h3{
     font-size: 10px;
