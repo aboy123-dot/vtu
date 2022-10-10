@@ -504,6 +504,10 @@ text-align: center;
   .burger{
     display:block;
   }
+  .footer{
+    flex-direction: column;
+    height: 400px;
+  }
 }
 
 .nav-active{
