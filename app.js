@@ -29,3 +29,23 @@ const navSlide = () => {
   }
   
   navSlide();
+
+let slide = 0;
+slides()
+function slides(){
+  let i;
+ let sliding = document.getElementsByClassName('cards')
+  for(i=0; i < sliding.length; i++){
+    sliding[i].style.display =
+    "none"
+  }slide++
+  if(slide > sliding.length){
+    slide = 1
+  }
+    sliding[slide -1].style.display ="block"
+    setTimeout(slides, 2000)
+
+  
+ 
+
+}

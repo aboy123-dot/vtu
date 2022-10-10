@@ -77,6 +77,13 @@ nav{
     border: none;
 
 }
+.straightline{
+  width: 200px;
+  height: 3px;
+  background-color: #19e9f0;
+  margin: auto;
+  border: #19e9f0;
+}
 .btn1{
     background-color: #19e9f0;
     color: white;
@@ -354,7 +361,95 @@ ul {
   top: -10px;
   width: 120px;
 }
+.option{
+  font-size: 14px;
+  background-color: #cccccc;
+  font-family: cursive;
+}
+.about-section{
+  margin: 10px;
+  padding: 10px;
+}
+.about-header{
+  text-align: center;
+}
+.about-header h4{
+  font-size: 30px;
 
+}
+.about-header span{
+  font-size: 18px;
+}
+.about-img-text {
+  display: flex;
+  height: 300px;
+  padding: 10px;
+}
+.about-img, .about-text{
+  width: 50%;
+  margin: 10px;
+}
+.about-img img{
+  width: 80%;
+  padding: 20px;
+}
+.recent{
+  margin: 10px;
+}
+.recentjobs .job{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+.p{
+  text-align: center;
+}
+.testimonial-section .job{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  
+
+}
+.card-display{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+ 
+}
+.cards{
+  margin: 5px;
+  display: none;
+  width: 500px;
+  height: 400px;
+
+}
+.footer{
+  display: flex;
+  height: 250px;
+  color: white;
+  justify-content: space-around;
+  background-color: #19e9f0;
+}
+.nav-link li a{
+  text-decoration: none;
+  color: white;
+}
+.img img{
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+.footer-logo, .footer-text{
+  width: 300px;
+
+}
+
+.down{
+text-align: center;
+
+}
 @media screen and (max-width:1024px){
   .nav-links{
     width:60%;
@@ -377,7 +472,7 @@ ul {
   .nav-links{
     position:absolute;
     right:0px;
-    height:92vh;
+    height:70vh;
     top: 8vh;
     background-color: #19e9f0;
     display:flex;
@@ -390,6 +485,16 @@ ul {
   h3{
     font-size: 10px;
     
+}
+.about-img-text{
+  flex-direction: column;
+}
+.about-img, .about-text{
+  width: 100%;
+  padding: 10px;
+}
+.recent{
+  margin-top: 150px;
 }
   .nav-links li{
     opacity: 0;
